@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+.split{
+    background: #ADA996; 
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+
+    
+width: 49.3%;
+border: 5px solid rgb(0, 0, 0);
+float: left;
+position: fixed;;
+height: 100%;
+}
+body{
+    background-color: darkgray;
+}
+.right{
+    background: #ADA996; 
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+    
+    width: 49%;
+    float: right;
+    padding: 5px;
+    border: 3px solid black;
+}
+.split img{
+    border-radius: 50px;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+#cen{
+   
+   margin-top: 5px;
+}
+#mov{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    margin-top: 5px;
+
+}
+#ps1{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+#pr{
+    font-family: Comic Sans MS;
+}
+#lt{
+    font-family: Segoe Print;
+}
+#ba{
+    font-family: Rockwell;
+}
+#kan{
+    font-family: Lucida Handwriting;
+}
+#nv{
+    font-family: Ink Free;
+}
+a:hover{
+    color: crimson;
+    counter-reset: indigo;
+}
+#le{
+    float: left;
+}
+#re{
+    float: right;
+}
+.im{
+        position: absolute;
+        top: -0.6rem;
+        left: 6rem;
+}
